@@ -1,0 +1,146 @@
+header {
+    background: url(https://media.istockphoto.com/photos/pink-yellow-and-orange-colors-defocused-abstract-smooth-background-picture-id1256009727?k=20&m=1256009727&s=612x612&w=0&h=J-fhRDZivDVRVmP4zsjnrrl1mcx8IOJcOTQgQ-767Ek=) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+nav {
+    margin-bottom: 100px;
+}
+
+a {
+    color: white;
+}
+
+header .row h6,
+header .row p,
+header .row h1 {
+    color: white;
+}
+
+header .row .buy {
+    color: black;
+}
+
+header .row button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    color: $color-black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+button.button:hover {
+    box-shadow: none;
+    color: white;
+}
+
+main {
+    margin-top: 200px;
+}
+
+.section-2 {
+    margin-top: 200px;
+    background: url(https://images.pexels.com/photos/11506984/pexels-photo-11506984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+.section-2 div .content {
+    margin-bottom: 100px;
+    color: white;
+}
+
+
+.section-3 {
+    background: url(https://media.istockphoto.com/photos/pink-yellow-and-orange-colors-defocused-abstract-smooth-background-picture-id1256009727?k=20&m=1256009727&s=612x612&w=0&h=J-fhRDZivDVRVmP4zsjnrrl1mcx8IOJcOTQgQ-767Ek=) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    margin-top: 200px;
+    color: white;
+}
+
+#testimonial {
+    width: 100%;
+    height: auto;
+    padding: 70px 0;
+}
+
+.title-text h1 {
+    margin-left: 25%;
+    margin-bottom: 100px;
+}
+
+.testimonial-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.testimonial-col {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #009688;
+    cursor: pointer;
+    transition: ease-out .5s;
+}
+
+.testimonial-col p {
+    font-size: 14px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user img {
+    width: 40%;
+    margin-right: 20px;
+    border: 3px;
+}
+
+.user-info bi {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #009688;
+}
+
+.testimonial-col:hover {
+    transform: translateY(7px);
+}
+
+.footer {
+    background-color: rgb(78, 74, 74);
+    color: white;
+    height: 400px;
+}
+.footer p {color: rgb(129, 125, 122);}
+
+.left {display: inline-block;margin:100px;}
+.mid  {display: inline-block;margin:100px;}
+.right{display: inline-block;margin:100px;}
+.footer i {color: rgb(209, 55, 124);}

@@ -1,3 +1,4 @@
+/* bài css này là em tự làm từ phần lab boostrap 1 ( khi chưa xem tới phần lab boostrap 2,vì thế nên có 1 file last.html là thuộc phần footer và đánh giá riêng). em thấy css em tự làm khá ổn cho web, 1 phần vì không có file ảnh nên em quyết định giữ lại và skip bài css của codegym  */
 header {
     background: url(https://media.istockphoto.com/photos/pink-yellow-and-orange-colors-defocused-abstract-smooth-background-picture-id1256009727?k=20&m=1256009727&s=612x612&w=0&h=J-fhRDZivDVRVmP4zsjnrrl1mcx8IOJcOTQgQ-767Ek=) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -145,19 +146,28 @@ main {
 
 .left {
     display: inline-block;
-    margin: 100px;
+    margin: 80px;
 }
 
 .mid {
     display: inline-block;
-    margin: 100px;
+    margin: 80px;
 }
 
 .right {
     display: inline-block;
-    margin: 100px;
+    margin: 80px;
 }
 
 .footer i {
     color: rgb(209, 55, 124);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
 }

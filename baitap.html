@@ -18,7 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
-
+    <script src="/js/main.js"></script>
 </head>
 
 <body>
@@ -250,7 +250,7 @@
                 <div class="testimonial-col">
                     <div class="user">
                         <img src="https://we25.vn/media2018/Img_News/2022/05/10/hqdefault_20220510094330.jpg"
-                            alt="tiktok">
+                            alt="tiktok" style="width:50px;">
                         <div class="user-info">
                             <h4>Dậy đi ông cháu ơi <i class="bi bi-facebook"></i></h4>
                             <strong><a href="https://www.facebook.com/groups/386368966748628/">Link</a></strong>
@@ -260,7 +260,8 @@
                 </div>
                 <div class="testimonial-col">
                     <div class="user">
-                        <img src="https://menback.com/wp-content/uploads/2021/09/Peaky-Blinders.jpg" alt="">
+                        <img src="https://menback.com/wp-content/uploads/2021/09/Peaky-Blinders.jpg" alt=""
+                            style="width:50px;">
                         <div class="user-info">
                             <h4>Peeky Blinder <i class="bi bi-twitter"></i></h4>
                             <strong><a href="https://en.wikipedia.org/wiki/Cillian_Murphy">Main character</a></strong>
@@ -271,7 +272,7 @@
                 <div class="testimonial-col">
                     <div class="user">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/DoMixi1989.jpg/250px-DoMixi1989.jpg"
-                            alt="mixi">
+                            alt="mixi" style="width:50px;">
                         <div class="user-info">
                             <h4>Mixi gaming <i class="bi bi-facebook"></i></h4>
                             <strong>@dochet1989</strong>
@@ -286,16 +287,24 @@
         <div class="left">
             <h4>About Us</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Neque voluptate delectus nobis obcaecati sunt</p> 
+            <p>Neque voluptate delectus nobis obcaecati sunt</p>
             <p>CopyRight @2019</p>
         </div>
         <div class="mid">
             <h4>Newsleter</h4>
             <p>Stay Updated</p>
-            <form>
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="Email" style="width: 400px;">
-            </form>
+            <div class="form-inline">
+                <div class="pl-0">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-dark text-white" placeholder="Email">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="right">
             <h4>Follow Us</h4>
